@@ -115,15 +115,83 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\HoraireModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\slider.css" />
+    <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\1.png" />
+    <Content Include="Images\10.jpg" />
+    <Content Include="Images\11.jpg" />
+    <Content Include="Images\2.png" />
+    <Content Include="Images\3.png" />
+    <Content Include="Images\4.jpg" />
+    <Content Include="Images\4.png" />
+    <Content Include="Images\5.jpg" />
+    <Content Include="Images\6.jpg" />
+    <Content Include="Images\7.jpg" />
+    <Content Include="Images\8.jpg" />
+    <Content Include="Images\9.jpg" />
+    <Content Include="Images\ab.jpg" />
+    <Content Include="Images\ab1.jpg" />
+    <Content Include="Images\arrow.png" />
+    <Content Include="Images\arrows.png" />
+    <Content Include="Images\arrow_down.png" />
+    <Content Include="Images\close.png" />
+    <Content Include="Images\closew.gif" />
+    <Content Include="Images\co.png" />
+    <Content Include="Images\down.png" />
+    <Content Include="Images\g1.jpg" />
+    <Content Include="Images\g2.jpg" />
+    <Content Include="Images\g3.jpg" />
+    <Content Include="Images\g4.jpg" />
+    <Content Include="Images\g5.jpg" />
+    <Content Include="Images\g6.jpg" />
+    <Content Include="Images\g7.jpg" />
+    <Content Include="Images\g8.jpg" />
+    <Content Include="Images\g9.jpg" />
+    <Content Include="Images\icons.png" />
+    <Content Include="Images\icons.svg" />
+    <Content Include="Images\img-sp.png" />
+    <Content Include="Images\img-sprite.png" />
+    <Content Include="Images\left-quotes.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\middle.jpg" />
+    <Content Include="Images\move-top.png" />
+    <Content Include="Images\n1.jpg" />
+    <Content Include="Images\n2.jpg" />
+    <Content Include="Images\n3.jpg" />
+    <Content Include="Images\n4.jpg" />
+    <Content Include="Images\n5.jpg" />
+    <Content Include="Images\n6.jpg" />
+    <Content Include="Images\nav.png" />
+    <Content Include="Images\next.png" />
+    <Content Include="Images\prev.png" />
+    <Content Include="Images\right-quotes.png" />
+    <Content Include="Images\rightw.gif" />
+    <Content Include="Images\search.png" />
+    <Content Include="Images\social2.png" />
+    <Content Include="Images\t1.jpg" />
+    <Content Include="Images\t2.jpg" />
+    <Content Include="Images\t3.jpg" />
+    <Content Include="Images\tw.png" />
+    <Content Include="Images\wallhaven-10742-thumb.jpg" />
+    <Content Include="Images\wallhaven-10742.jpg" />
+    <Content Include="Images\wallhaven-12018-thumbnail.jpg" />
+    <Content Include="Images\wallhaven-12018.jpg" />
+    <Content Include="Images\wallhaven-16270-thumbnail.jpg" />
+    <Content Include="Images\wallhaven-16270.jpg" />
+    <Content Include="Images\wallhaven-27263-thumbnail.jpg" />
+    <Content Include="Images\wallhaven-27263.jpg" />
+    <Content Include="Images\wallhaven-3178-thumb.jpg" />
+    <Content Include="Images\wallhaven-3178.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -149,14 +217,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    color: blue;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +22,23 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid red;
+    width: 300px;
+    height: 30px;
+}
+
+.navbar {
+    background-color: bisque;
+}
+
+.jumbotron {
+    background-color: bisque;
+    opacity: 0.5;
 }
