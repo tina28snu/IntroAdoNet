@@ -16,7 +16,7 @@ namespace MedicoWeb.Models
         private TimeSpan _debAprem;
         private TimeSpan _finAprem;
         private DateTime _debDate;
-        private DateTime _finDate; 
+        private DateTime _finDate;
         #endregion
 
         #region Properties
@@ -66,7 +66,7 @@ namespace MedicoWeb.Models
         {
             get { return _finDate; }
             set { _finDate = value; }
-        } 
+        }
         #endregion
 
         public List<HoraireModel> GetAll()

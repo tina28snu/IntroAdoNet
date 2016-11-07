@@ -4,6 +4,39 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+.form {
+    margin-left: 20px;
+}
+
+.h2 {
+    margin-left: 50px;
+}
+
+.form input {
+    position: absolute;
+    left: 300px;
+    border: 1px solid #23B5B9;
+}
+
+.radioForm {
+    margin-left: 20px;
+}
+
+.radioForm label:first-child {
+    margin-right: 210px;
+}
+
+.radioForm input {
+    margin-left: 10px;
+}
+
+.submit {
+    margin-left: 20px;
+    border: 3px solid #23B5B9;
+    width: 100px;
+    padding: 1px;
+}
+
 body a {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -3448,4 +3481,7 @@ float:left;
 		border-top: none !important;
 		padding: 0 5px!important;
 	}
+}
+
+
 }

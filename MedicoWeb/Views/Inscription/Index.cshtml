@@ -1,0 +1,68 @@
+﻿@model MedicoWeb.Models.ClientModel
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="h2">Inscription</h2>
+<br />
+@using (Html.BeginForm())
+{
+    <br />
+    <div class="form">
+        @Html.LabelFor(model => model.Nom)
+        @Html.TextBoxFor(model => model.Nom)
+    </div>
+    <br />
+    <div class="form">
+        @Html.LabelFor(model => model.Prenom)
+        @Html.TextBoxFor(model => model.Prenom)
+    </div>
+    <br />
+    <div class="form">
+        @Html.LabelFor(model => model.DateNaissance)
+        @Html.TextBoxFor(model => model.DateNaissance)
+    </div>
+    <br />
+    <div class="radioForm">
+        @Html.LabelFor(model => model.Sex)
+        @Html.RadioButtonFor(model => model.Sex, "Femme")
+        @Html.LabelFor(model => model.Sex, "Femme")
+        @Html.RadioButtonFor(model => model.Sex, "Homme")
+        @Html.LabelFor(model => model.Sex, "Homme")
+        @Html.RadioButtonFor(model => model.Sex, "Autre")
+        @Html.LabelFor(model => model.Sex, "Autre")
+    </div>
+    <br />
+    <div class="form">
+        @Html.LabelFor(model => model.Adresse)
+        @Html.TextBoxFor(model => model.Adresse)
+    </div>
+    <br />
+    <div class="form">
+        @Html.LabelFor(model => model.Telephone)
+        @Html.TextBoxFor(model => model.Telephone)
+    </div>
+    <br />
+    <div class="form">
+        @Html.LabelFor(model => model.EmailAdresse)
+        @Html.TextBoxFor(model => model.EmailAdresse)
+    </div>
+    <br />
+    <div class="form">
+        @Html.LabelFor(model => model.Login)
+        @Html.TextBoxFor(model => model.Login)
+    </div>
+    <br />
+    <div class="form">
+        @Html.LabelFor(model => model.Password)
+        @Html.TextBoxFor(model => model.Password)
+    </div>
+    <br />
+    <br />
+    <div class="submit">
+        <input value="Confirmer" type="submit" />
+    </div>
+    <br />
+}
